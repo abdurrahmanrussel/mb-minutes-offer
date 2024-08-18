@@ -223,18 +223,9 @@ function buyNow(packageName, operator, price) {
 
     // Construct the Messenger link using 'ref'
     const messengerLink = `https://m.me/Rahul.Hasan.2866?ref=${encodeURIComponent(message)}`;
-
-    // Detect if the user is on a mobile device
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-    // Use Messenger deep link for mobile devices
-    if (isMobile) {
-        window.location.href = messengerLink;
-        alert("You'll be redirected to Messenger. If the message is not pre-filled, please type it manually.");
-    } else {
-        // For desktop, open in a new tab
-        window.open(messengerLink, '_blank');
-    }
+    
+    window.open(messengerLink, '_blank');
+    
 }
 
 
