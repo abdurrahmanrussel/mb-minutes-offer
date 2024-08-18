@@ -223,8 +223,8 @@ function buyNow(packageName, operator, price) {
 
     // Construct the Messenger link using 'ref'
     const messengerLink = `https://m.me/Rahul.Hasan.2866?ref=${encodeURIComponent(message)}`;
+    window.location.href = messengerLink;
     
-    window.open(messengerLink, '_blank');
     
 }
 
