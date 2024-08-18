@@ -30,6 +30,7 @@ h1, h2, h3 {
 }
 
 .package-card {
+    text-align: center;
     border: 2px solid #ddd;
     border-radius: 15px;
     padding: 25px;
@@ -67,6 +68,7 @@ h1, h2, h3 {
     color: #999;
     margin-right: 10px;
 }
+
 
 .btn-primary {
     background-color: #ff5733;
