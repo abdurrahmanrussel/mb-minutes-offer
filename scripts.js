@@ -159,7 +159,7 @@ function generatePackageHTML(packages, sectionId, operator) {
             <div class="col-md-4">
                 <div class="package-card">
                     <h5>${pkg.name}</h5>
-                    <p> ${operator ? `operator= ${operator}` : ''} ${pkg.data ? `Data= ${pkg.data}` : ''}   ${pkg.minutes ? `Minutes= ${pkg.minutes}` : ''}</p>
+                    <p> ${operator } ${pkg.data ? `Data= ${pkg.data}` : ''}   ${pkg.minutes ? `Minutes= ${pkg.minutes}` : ''}</p>
                     <p><span class="old-price">BDT ${pkg.oldPrice}</span><span class="price">TK ${pkg.offerPrice}</span></p>
                     <button class="btn btn-primary" onclick="buyNow('${pkg.name}', '${operator}', '${pkg.offerPrice}')">Buy Now</button>
                 </div>
