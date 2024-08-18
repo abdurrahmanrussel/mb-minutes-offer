@@ -230,9 +230,11 @@ function buyNow(packageName, operator, price) {
     // Use Messenger deep link for mobile devices
     if (isMobile) {
         window.location.href = messengerLink;
+        alert("You'll be redirected to Messenger. Please tap 'Send' to complete your message.");
     } else {
         // For desktop, open in a new tab
         window.open(messengerLink, '_blank');
     }
 }
+
 
