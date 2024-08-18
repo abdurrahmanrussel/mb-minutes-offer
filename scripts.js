@@ -2,14 +2,18 @@
 const packages = {
     "grameenphone": {
         "mbMinutes": [
-            {name: "60 GB + 1800 Minutes", oldPrice: 1199, offerPrice: 930},
-            {name: "30GB + 700 Minutes",  oldPrice: 799, offerPrice: 715},
+            {name: "50 GB + 1500 Minutes ঢাকা জেলা , নাঃ গঞ্জ , মানিকগঞ্জ , মুন্সিগঞ্জ নরসিংদী জেলা ", oldPrice: 999, offerPrice: 765},
+            {name: "50 GB + 1500 Minutes রাজশাহী রংপুর বিভাগ ", oldPrice: 999, offerPrice: 745},
+            {name: "50 GB + 1500 Minutes খুলনা বরিশাল ", oldPrice: 999, offerPrice: 760},
+            {name: "50 GB + 1500 Minutes চটগ্রাম বিভাগ ", oldPrice: 999, offerPrice: 760},
+            {name: "50 GB + 1500 Minutes সিলেট বিভাগ ", oldPrice: 999, offerPrice: 760},
+            {name: "50 GB + 1500 Minutes ময়মনসিংহ বিভাগ, গাজীপুর, টাংগাইল জেলা ", oldPrice: 999, offerPrice: 760},
             
         ],
         "mbOnly": [
-            {name: "70 GB Data",  oldPrice: 749, offerPrice: 640},
-            {name: "100 GB Data",  oldPrice: 849, offerPrice: 660},
-            {name: "200 GB Data",  oldPrice: 0, offerPrice: 820}
+            {name: "70 GB Data",  oldPrice: 749, offerPrice: 0},
+            {name: "100 GB Data",  oldPrice: 849, offerPrice: 0},
+            {name: "200 GB Data",  oldPrice: 0, offerPrice: 0}
         ],
         "minutesOnly": [
             
@@ -18,17 +22,19 @@ const packages = {
     "grameenphoneGift": {
         "mbMinutes": [
             
-            {name: "25GB + 200 Minutes",  oldPrice: 0, offerPrice: 565},
-            {name: "40GB + 200 Minutes",  oldPrice: 0, offerPrice: 600},
-            {name: "40GB + 300 Minutes",  oldPrice: 0, offerPrice: 640},
-            {name: "40GB + 400 Minutes", oldPrice: 0, offerPrice: 655},
-            {name: "50GB + 200 Minutes",  oldPrice: 0, offerPrice: 700}
+            {name: "25GB + 200 Minutes",  oldPrice: 0, offerPrice: 555},
+            {name: "40GB + 200 Minutes",  oldPrice: 0, offerPrice: 595},
+            {name: "40GB + 300 Minutes",  oldPrice: 0, offerPrice: 625},
+            {name: "40GB + 400 Minutes", oldPrice: 0, offerPrice: 660},
+            {name: "50GB + 200 Minutes",  oldPrice: 0, offerPrice: 625}
 
             
         ],
         "mbOnly": [
             {name: "25 GB Data",  oldPrice: 0, offerPrice: 430},
-            {name: "50 GB Data",  oldPrice: 0, offerPrice: 545},
+            {name: "50 GB Data",  oldPrice: 0, offerPrice: 540},
+            {name: "75 GB Data",  oldPrice: 0, offerPrice: 640},
+            {name: "100 GB Data",  oldPrice: 0, offerPrice: 675},
             
         ],
         "minutesOnly": [
@@ -40,23 +46,20 @@ const packages = {
     },
     "banglalink": {
         "mbMinutes": [
-            {name: "60 GB + 1000 Minutes", oldPrice: 998, offerPrice: 720},
-            {name: "45 GB + 400 Minutes",  oldPrice: 648, offerPrice: 490},
-            {name: "30 GB + 300 Minutes",  oldPrice: 498, offerPrice: 425},
-            
+            {name: "60 GB + 1000 Minutes", oldPrice: 998, offerPrice: 670},
+            {name: "45 GB + 400 Minutes",  oldPrice: 648, offerPrice: 480},
             {name: "15 GB + 100 Minutes",  oldPrice: 298, offerPrice: 315}
             
         ],
         "mbOnly": [
-            {name: "120 GB Data", oldPrice: 899, offerPrice: 660},
-            {name: "80 GB Data",oldPrice: 799, offerPrice: 580},
-            {name: "60 GB Data",  oldPrice: 699, offerPrice: 575},
-            {name: "50 GB Data", oldPrice: 599, offerPrice: 495},
-            {name: "20 GB Data",  oldPrice: 499, offerPrice: 370}
+            {name: "120 GB Data", oldPrice: 899, offerPrice: 650},
+            {name: "80 GB Data",oldPrice: 799, offerPrice: 555},
+            
+            {name: "৫ GB Data মেয়াদ ৩ দিন ",  oldPrice: 89, offerPrice: 55} 
         ],
         "minutesOnly": [
-            {name: "600 Minutes", oldPrice: 397, offerPrice: 320},
-            {name: "755 Minutes",  oldPrice: 497, offerPrice: 395},
+            {name: "600 Minutes", oldPrice: 397, offerPrice: 300},
+            {name: "755 Minutes",  oldPrice: 497, offerPrice: 375},
             {name: "1000 Minutes",  oldPrice: 647, offerPrice: 0}
            
         ]
@@ -86,7 +89,7 @@ const packages = {
     },
     "airtel": {
         "mbMinutes": [
-            {name: "75 GB + 1500 Minutes",  oldPrice: 999, offerPrice: 795},
+            {name: "75 GB + 1500 Minutes",  oldPrice: 999, offerPrice: 790},
             {name: "100 GB + 1000 Minutes",  oldPrice: 0, offerPrice: 825},
             {name: "80 GB + 300 Minutes", oldPrice: 0, offerPrice: 685},
             {name: "80 GB + 500 Minutes",  oldPrice: 0, offerPrice: 725},
@@ -95,12 +98,12 @@ const packages = {
             {name: "50 GB + 800 Minutes",  oldPrice: 799, offerPrice: 700},
             {name: "50 GB + 700 Minutes",  oldPrice: 699, offerPrice: 670},
             {name: "40 GB + 500 Minutes", oldPrice: 0, offerPrice: 575},
-            {name: "30 GB + 400 Minutes",  oldPrice: 499, offerPrice: 515}
+            {name: "30 GB + 400 Minutes",  oldPrice: 0, offerPrice: 515}
            
             
         ],
         "mbOnly": [
-            {name: "150 GB Data",  oldPrice: 898, offerPrice: 770},
+            {name: "150 GB Data",  oldPrice: 898, offerPrice: 765},
             {name: "100 GB Data",  oldPrice: 0, offerPrice: 675},
             {name: "90 GB Data",  oldPrice: 748, offerPrice: 655},
             {name: "70 GB Data",  oldPrice: 0, offerPrice: 595},
@@ -132,11 +135,11 @@ const packages = {
             
         ],
         "mbOnly": [
-            {name: "10GB Data", oldPrice: 0, offerPrice: 178 },
+            {name: "10 GB Data", oldPrice: 0, offerPrice: 175 },
             {name: "15 GB Data", oldPrice: 0, offerPrice: 235},
-            {name: "20 GB Data", oldPrice: 0, offerPrice: 290},
-            {name: "25GB Data", oldPrice: 0, offerPrice: 345},
-            {name: "30GB Data", oldPrice: 0, offerPrice: 405}
+            {name: "20 GB Data", oldPrice: 0, offerPrice: 285},
+            {name: "25 GB Data", oldPrice: 0, offerPrice: 345},
+            {name: "30 GB Data", oldPrice: 0, offerPrice: 405}
         ],
         "minutesOnly": [
             
