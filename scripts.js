@@ -222,7 +222,7 @@ function buyNow(packageName, operator, price) {
     const message = `Hi, I would like to buy the ${packageName} package from ${operator} at a price of ${price}.`;
 
     // Construct the Messenger link using 'ref'
-    const messengerLink = `https://m.me/Rahul.Hasan.2866?ref=${encodeURIComponent(message)}`;
+    const messengerLink = `https://m.me/Rahul.Hasan.2866?text=${encodeURIComponent(message)}`;
     window.location.href = messengerLink;
     
     
