@@ -1,0 +1,97 @@
+
+body {
+    background-color: #f0f4f8;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.operator-selection .btn-operator {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #3336ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.operator-selection .btn-operator:hover {
+    background-color: #e02ac8;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.package-card {
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    background-color: lightskyblue;
+}
+
+.package-card h5 {
+    font-size: 1.25rem;
+    color: #ff5733;
+    margin-bottom: 15px;
+}
+
+.package-card p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.price {
+    color: #ff5733;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #ff5733;
+    border-color: #ff5733;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e04e2a;
+    border-color: #e04e2a;
+}
+
+#package-sections {
+    margin-top: 50px;
+}
+
+h3 {
+    color: green;
+}
+
+h4 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h1, h3, h4, p {
+    font-family: 'kalpurush' , sans-serif;
+}

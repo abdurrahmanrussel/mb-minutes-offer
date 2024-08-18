@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang= "bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Packages in Bangladesh</title>
+    <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="./1.jpg" type="image/jpg" sizes="16x16">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-center">কোন সিমের প্যাকেজ নিবেন সেটা সিলেক্ট করুন </h1>
+
+    <div class="row operator-selection text-center">
+        <div class="col-md-2">
+            <button class="btn btn-lg btn-operator" onclick="showPackages('grameenphone')">গ্রামীণফোন </button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-lg btn-operator" onclick="showPackages('grameenphoneGift')">গ্রামীণ গিফট </button> 
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-lg btn-operator" onclick="showPackages('banglalink')">বাংলালিংক </button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-lg btn-operator" onclick="showPackages('robi')">রবি </button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-lg btn-operator" onclick="showPackages('airtel')">এয়ারটেল </button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-lg btn-operator" onclick="showPackages('robiAirtelFamily')">রবি+এয়ারটেল ফ্যামিলি</button> 
+        </div>
+    </div>
+
+    <div id="package-sections" class="d-none">
+        <h2 class="text-center" id="operator-name"></h2>
+
+        <div id="mb-minutes" class="section">
+            <h3> <b>এমবি+ মিনিট কম্বো</b> </h3> 
+            <div class="row" id="mb-minutes-packages"></div>
+        </div>
+
+        <div id="mb-only" class="section">
+            <h3> <b>  শুধু এমবি </b></h3>
+            <div class="row" id="mb-packages"></div>
+        </div>
+
+        <div id="minutes-only" class="section">
+            <h3> <b>  শুধু মিনিট </b> </h3>
+            <div class="row" id="minutes-packages"></div>
+        </div>
+        <h4 id="hintGift"> </h4>
+    </div>
+</div>
+
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
