@@ -221,8 +221,8 @@ function buyNow(packageName, operator, price) {
     // Create the message to be sent
     const message = `Hi, I would like to buy the ${packageName} package from ${operator} at a price of ${price}.`;
 
-    // Construct the Messenger link
-    const messengerLink = `https://m.me/Rahul.Hasan.2866?text=${encodeURIComponent(message)}`;
+    // Construct the Messenger link using 'ref'
+    const messengerLink = `https://m.me/Rahul.Hasan.2866?ref=${encodeURIComponent(message)}`;
 
     // Detect if the user is on a mobile device
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -230,7 +230,7 @@ function buyNow(packageName, operator, price) {
     // Use Messenger deep link for mobile devices
     if (isMobile) {
         window.location.href = messengerLink;
-        alert("You'll be redirected to Messenger. Please tap 'Send' to complete your message.");
+        alert("You'll be redirected to Messenger. If the message is not pre-filled, please type it manually.");
     } else {
         // For desktop, open in a new tab
         window.open(messengerLink, '_blank');
