@@ -109,5 +109,13 @@ h1, h3, h4, p {
     margin-bottom: 50px;
     margin-top: 0;
   }
+#first {
+    margin-top: 100px;
+  }
 
+  #selected-name{
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+  }
 
