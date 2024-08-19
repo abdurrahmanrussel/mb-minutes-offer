@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang= "bn">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,28 +12,25 @@
 <body>
 
 <div class="container">
-    <h1 class="text-center">সিম অপারেটর সিলেক্ট করুন এবং সিলেক্ট করার পর নিচের দিকে যান  </h1>
+    <h1 class="text-center" id="first">সিম অপারেটর সিলেক্ট করুন </h1>
 
-    <div class="row operator-selection text-center">
-        <div class="col-md-2">
+    <div id="operator-selection" class="row operator-selection text-center">
+        <div class="col-md-3">
             <button class="btn btn-lg btn-operator" onclick="showPackages('grameenphone')">গ্রামীণফোন </button>
         </div>
-        <div class="col-md-2">
-            <button class="btn btn-lg btn-operator" onclick="showPackages('grameenphoneGift')">গ্রামীণ গিফট </button> 
-        </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
             <button class="btn btn-lg btn-operator" onclick="showPackages('banglalink')">বাংলালিংক </button>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
             <button class="btn btn-lg btn-operator" onclick="showPackages('robi')">রবি </button>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
             <button class="btn btn-lg btn-operator" onclick="showPackages('airtel')">এয়ারটেল </button>
         </div>
-        <div class="col-md-2">
-            <button class="btn btn-lg btn-operator" onclick="showPackages('robiAirtelFamily')">রবি+এয়ারটেল ফ্যামিলি</button> 
-        </div>
+        
     </div>
+
+    <h4 id="selected-name" ></h4>
 
     <div id="package-sections" class="d-none">
         <h2 class="text-center" id="operator-name"></h2>
@@ -53,10 +50,12 @@
             <div class="row" id="minutes-packages"></div>
         </div>
         <h4 id="hintGift"> </h4>
+        <div class="button-center" >
+            <button id="home-button" class="btn btn-secondary d-none"  onclick="showOperators()">শুরু তে যান</button>
+        </div>
+        
     </div>
 </div>
-
-
 
 <script src="scripts.js"></script>
 </body>
