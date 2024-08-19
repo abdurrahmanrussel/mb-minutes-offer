@@ -8,42 +8,29 @@ const packages = {
             {name: "50 GB + 1500 Minutes চটগ্রাম বিভাগ ", oldPrice: 999, offerPrice: 760},
             {name: "50 GB + 1500 Minutes সিলেট বিভাগ ", oldPrice: 999, offerPrice: 760},
             {name: "50 GB + 1500 Minutes ময়মনসিংহ বিভাগ, গাজীপুর, টাংগাইল জেলা ", oldPrice: 999, offerPrice: 760},
-            
-        ],
-        "mbOnly": [
-            {name: "70 GB Data",  oldPrice: 749, offerPrice: 0},
-            {name: "100 GB Data",  oldPrice: 849, offerPrice: 0},
-            {name: "200 GB Data",  oldPrice: 0, offerPrice: 0}
-        ],
-        "minutesOnly": [
-            
-        ]
-    },
-    "grameenphoneGift": {
-        "mbMinutes": [
-            
             {name: "25GB + 200 Minutes",  oldPrice: 0, offerPrice: 555},
             {name: "40GB + 200 Minutes",  oldPrice: 0, offerPrice: 595},
             {name: "40GB + 300 Minutes",  oldPrice: 0, offerPrice: 625},
             {name: "40GB + 400 Minutes", oldPrice: 0, offerPrice: 660},
             {name: "50GB + 200 Minutes",  oldPrice: 0, offerPrice: 625}
-
             
         ],
         "mbOnly": [
+            {name: "70 GB Data",  oldPrice: 749, offerPrice: 0},
+            {name: "100 GB Data",  oldPrice: 849, offerPrice: 0},
+            {name: "200 GB Data",  oldPrice: 0, offerPrice: 0},
             {name: "25 GB Data",  oldPrice: 0, offerPrice: 430},
             {name: "50 GB Data",  oldPrice: 0, offerPrice: 540},
             {name: "75 GB Data",  oldPrice: 0, offerPrice: 640},
             {name: "100 GB Data",  oldPrice: 0, offerPrice: 675},
-            
         ],
         "minutesOnly": [
-            
             {name: "400 Minutes",  oldPrice: 0, offerPrice: 300},
             {name: "500 Minutes",  oldPrice: 0, offerPrice: 340},
             {name: "1000 Minutes", oldPrice: 0, offerPrice: 650}
         ]
     },
+
     "banglalink": {
         "mbMinutes": [
             {name: "60 GB + 1000 Minutes", oldPrice: 998, offerPrice: 670},
@@ -71,19 +58,46 @@ const packages = {
             {name: "50 GB + 1000 Minutes",  oldPrice: 0, offerPrice: 725},
             {name: "50 GB + 500 Minutes", oldPrice: 0, offerPrice: 685},
             {name: "40 GB + 800 Minutes", oldPrice: 799, offerPrice: 675},
-            {name: "40 GB + 750 Minutes",  oldPrice: 0, offerPrice: 635}
+            {name: "40 GB + 750 Minutes",  oldPrice: 0, offerPrice: 635},
+
+            {name: "10 GB + 200 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 265},
+            {name: "10 GB + 300 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 310},
+            {name: "10 GB + 400 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 365},
+            {name: "10 GB + 500 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 400},
+
+            {name: "15 GB + 200 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 325},
+            {name: "15 GB + 300 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 360},
+            {name: "15 GB + 400 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 410},
+            {name: "15 GB + 500 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 455},
+
+            {name: "20 GB + 200 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 385},
+            {name: "20 GB + 400 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 470},
+            {name: "20 GB + 500 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 515}
+
             
         ],
         "mbOnly": [
             {name: "150 GB Data",  oldPrice: 898, offerPrice: 745},
             {name: "100 GB Data",  oldPrice: 748, offerPrice: 655},
             {name: "55GB Data",  oldPrice: 0, offerPrice: 625},
-            {name: "40 GB Data",  oldPrice: 0, offerPrice: 565}
+            {name: "40 GB Data",  oldPrice: 0, offerPrice: 565},
+
+            {name: "10 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 175 },
+            {name: "15 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 235},
+            {name: "20 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 285},
+            {name: "25 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 345},
+            {name: "30 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 405}
             
         ],
         "minutesOnly": [
             {name: "560 Minutes",  oldPrice: 359, offerPrice: 355},
-            {name: "1000 Minutes",  oldPrice: 639, offerPrice: 490}
+            {name: "1000 Minutes",  oldPrice: 639, offerPrice: 490},
+
+            {name: "200 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 155},
+            {name: "300 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 195},
+            {name: "400 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 235},
+            {name: "500 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 275},
+            {name: "900 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 460}
             
         ]
     },
@@ -98,7 +112,22 @@ const packages = {
             {name: "50 GB + 800 Minutes",  oldPrice: 799, offerPrice: 700},
             {name: "50 GB + 700 Minutes",  oldPrice: 699, offerPrice: 670},
             {name: "40 GB + 500 Minutes", oldPrice: 0, offerPrice: 575},
-            {name: "30 GB + 400 Minutes",  oldPrice: 0, offerPrice: 515}
+            {name: "30 GB + 400 Minutes",  oldPrice: 0, offerPrice: 515},
+
+            {name: "10 GB + 200 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 265},
+            {name: "10 GB + 300 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 310},
+            {name: "10 GB + 400 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 365},
+            {name: "10 GB + 500 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 400},
+
+            {name: "15 GB + 200 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 325},
+            {name: "15 GB + 300 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 360},
+            {name: "15 GB + 400 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 410},
+            {name: "15 GB + 500 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 455},
+
+            {name: "20 GB + 200 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 385},
+            {name: "20 GB + 400 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 470},
+            {name: "20 GB + 500 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 515}
+
            
             
         ],
@@ -108,52 +137,32 @@ const packages = {
             {name: "90 GB Data",  oldPrice: 748, offerPrice: 655},
             {name: "70 GB Data",  oldPrice: 0, offerPrice: 595},
             {name: "55 GB Data", oldPrice: 548, offerPrice: 545},
+
+            {name: "10 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 175 },
+            {name: "15 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 235},
+            {name: "20 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 285},
+            {name: "25 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 345},
+            {name: "30 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 405}
             
         ],
         "minutesOnly": [
             {name: "650 Minutes",  oldPrice: 407, offerPrice: 380},
             {name: "800 Minutes", oldPrice: 507, offerPrice: 460},
-            {name: "1000 Minutes",  oldPrice: 639, offerPrice: 570}
+            {name: "1000 Minutes",  oldPrice: 639, offerPrice: 570},
+
+            {name: "200 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 155},
+            {name: "300 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 195},
+            {name: "400 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 235},
+            {name: "500 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 275},
+            {name: "900 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 460}
         ]
     },
-    "robiAirtelFamily": {
-        "mbMinutes": [
-            {name: "10 GB + 200 Minutes",  oldPrice: 0, offerPrice: 265},
-            {name: "10 GB + 300 Minutes", oldPrice: 0, offerPrice: 310},
-            {name: "10 GB + 400 Minutes", oldPrice: 0, offerPrice: 365},
-            {name: "10 GB + 500 Minutes",  oldPrice: 0, offerPrice: 400},
-
-            {name: "15 GB + 200 Minutes",  oldPrice: 0, offerPrice: 325},
-            {name: "15 GB + 300 Minutes",  oldPrice: 0, offerPrice: 360},
-            {name: "15 GB + 400 Minutes",  oldPrice: 0, offerPrice: 410},
-            {name: "15 GB + 500 Minutes",  oldPrice: 0, offerPrice: 455},
-
-            {name: "20 GB + 200 Minutes", oldPrice: 0, offerPrice: 385},
-            {name: "20 GB + 400 Minutes", oldPrice: 0, offerPrice: 470},
-            {name: "20 GB + 500 Minutes",  oldPrice: 0, offerPrice: 515},
-
-            
-        ],
-        "mbOnly": [
-            {name: "10 GB Data", oldPrice: 0, offerPrice: 175 },
-            {name: "15 GB Data", oldPrice: 0, offerPrice: 235},
-            {name: "20 GB Data", oldPrice: 0, offerPrice: 285},
-            {name: "25 GB Data", oldPrice: 0, offerPrice: 345},
-            {name: "30 GB Data", oldPrice: 0, offerPrice: 405}
-        ],
-        "minutesOnly": [
-            
-            {name: "200 Minutes", oldPrice: 0, offerPrice: 155},
-            {name: "300 Minutes", oldPrice: 0, offerPrice: 195},
-            {name: "400 Minutes",  oldPrice: 0, offerPrice: 235},
-            {name: "500 Minutes",  oldPrice: 0, offerPrice: 275},
-            {name: "900 Minutes",  oldPrice: 0, offerPrice: 460}
-        ]
-    }
+    
 };
 
 // Function to generate HTML for a list of packages
 function generatePackageHTML(packages, sectionId, operator) {
+    
     const section = document.getElementById(sectionId);
     section.innerHTML = '';  // Clear previous content
 
@@ -171,9 +180,14 @@ function generatePackageHTML(packages, sectionId, operator) {
     });
 }
 
+
+
 // Function to load packages into the HTML based on the selected operator
 function loadPackages(operator) {
-    document.getElementById('operator-name').innerText = operator.charAt(0).toUpperCase() + operator.slice(1);
+
+    
+
+   // document.getElementById('operator-name').innerText = operator.charAt(0).toUpperCase() + operator.slice(1);
 
     // Load MB + Minutes packages
     generatePackageHTML(packages[operator].mbMinutes, 'mb-minutes-packages', operator);
@@ -184,39 +198,40 @@ function loadPackages(operator) {
     // Load Minutes Only packages
     generatePackageHTML(packages[operator].minutesOnly, 'minutes-packages', operator);
 
-    
+}
+
+function showPackages(operator) {
+    document.getElementById("first").innerHTML= "";
 
     if(operator === 'grameenphone') {
-        const element = document.getElementById("hintGift");
-        element.innerHTML = "গ্রামীণফোনের আরও অফার দেখতে গিফট প্যাকেজ গুলো দেখুন ";
+        document.getElementById("selected-name").innerHTML= "আপনি গ্রামীণফোন সিমের অফার গুলো দেখছেন";
     }
-
-    else if(operator === 'grameenphoneGift') {
-        const element = document.getElementById("hintGift");
-        element.innerHTML = "গ্রামীণফোনের আরও অফার দেখতে গ্রামীণফোন রিচার্জ অফার গুলো দেখুন ";
+    
+    else if(operator === 'robi') {
+        document.getElementById("selected-name").innerHTML= "আপনি রবি  সিমের অফার গুলো দেখছেন";
     }
-
-    else if(operator === 'robi' ||  operator === 'airtel') {
-        const element = document.getElementById("hintGift");
-        element.innerHTML = "রবি এয়ারটেলের আরও প্যাকেজ দেখতে ফ্যামিলি প্যাকেজ গুলো দেখুন ";
-    }
-
-    else if(operator === 'robiAirtelFamily') {
-        const element = document.getElementById("hintGift");
-        element.innerHTML = "রবি / এয়ারটেলের আরও প্যাকেজ দেখতে রবি /এয়ারটেল প্যাকেজ গুলো দেখুন ";
+    
+    else if( operator === 'airtel') {
+        document.getElementById("selected-name").innerHTML= "আপনি এয়ারটেল সিমের অফার গুলো দেখছেন";
     }
     
     else {
-        const element = document.getElementById("hintGift");
-        element.innerHTML = "";
+        document.getElementById("selected-name").innerHTML= "আপনি বাংলালিংক সিমের অফার গুলো দেখছেন";
     }
 
+    document.getElementById('package-sections').classList.remove('d-none');
+    document.getElementById('operator-selection').classList.add('d-none'); // Hide all operator buttons
+    loadPackages(operator);
+    document.getElementById('home-button').classList.remove('d-none'); // Show Home button
 }
 
-// Function to show packages for the selected operator
-function showPackages(operator) {
-    document.getElementById('package-sections').classList.remove('d-none');
-    loadPackages(operator);
+// Function to go back to the operator selection screen
+function showOperators() {
+    document.getElementById("first").innerHTML= "সিম অপারেটর সিলেক্ট করুন";
+    document.getElementById('package-sections').classList.add('d-none');  // Hide package sections
+    document.getElementById('operator-selection').classList.remove('d-none'); // Show operator buttons
+    document.getElementById('home-button').classList.add('d-none');  // Hide Home button
+    document.getElementById("selected-name").innerHTML= "";
 }
 
 // Function to handle "Buy Now" click
@@ -230,5 +245,4 @@ function buyNow(packageName, operator, price) {
     
     
 }
-
 
