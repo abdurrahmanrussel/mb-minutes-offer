@@ -14,7 +14,7 @@ h1, h2, h3 {
     width: 100%;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #3336ff;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 .operator-selection .btn-operator:hover {
-    background-color: #e02ac8;
+    background-color: orangered;
 }
 
 .section {
@@ -43,7 +43,7 @@ h1, h2, h3 {
 .package-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-    background-color: lightskyblue;
+    
 }
 
 .package-card h5 {
@@ -97,3 +97,17 @@ h4 {
 h1, h3, h4, p {
     font-family: 'kalpurush' , sans-serif;
 }
+
+.home-button {
+    text-align: center;
+    position: absolute;
+    text-decoration: double;
+}
+
+.button-center {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+
+
