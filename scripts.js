@@ -2,27 +2,41 @@
 const packages = {
     "grameenphone": {
         "mbMinutes": [
-            {name: "50 GB + 1500 Minutes ঢাকা জেলা , নাঃ গঞ্জ , মানিকগঞ্জ , মুন্সিগঞ্জ নরসিংদী জেলা ", oldPrice: 999, offerPrice: 765},
+           /* {name: "50 GB + 1500 Minutes ঢাকা জেলা , নাঃ গঞ্জ , মানিকগঞ্জ , মুন্সিগঞ্জ নরসিংদী জেলা ", oldPrice: 999, offerPrice: 765},
             {name: "50 GB + 1500 Minutes রাজশাহী রংপুর বিভাগ ", oldPrice: 999, offerPrice: 745},
             {name: "50 GB + 1500 Minutes খুলনা বরিশাল ", oldPrice: 999, offerPrice: 760},
             {name: "50 GB + 1500 Minutes চটগ্রাম বিভাগ ", oldPrice: 999, offerPrice: 760},
-            {name: "50 GB + 1500 Minutes সিলেট বিভাগ ", oldPrice: 999, offerPrice: 760},
-            {name: "50 GB + 1500 Minutes ময়মনসিংহ বিভাগ, গাজীপুর, টাংগাইল জেলা ", oldPrice: 999, offerPrice: 760},
-            {name: "25GB + 200 Minutes",  oldPrice: 0, offerPrice: 555},
-            {name: "40GB + 200 Minutes",  oldPrice: 0, offerPrice: 595},
-            {name: "40GB + 300 Minutes",  oldPrice: 0, offerPrice: 625},
-            {name: "40GB + 400 Minutes", oldPrice: 0, offerPrice: 660},
-            {name: "50GB + 200 Minutes",  oldPrice: 0, offerPrice: 625}
+            {name: "50 GB + 1500 Minutes সিলেট বিভাগ ", oldPrice: 999, offerPrice: 760},*/
+            {name: "50 GB + 1500 Minutes ", oldPrice: 999, offerPrice: 775},
+
+
+            {name: "15 GB + 100 Minutes",  oldPrice: 0, offerPrice: 410},
+            {name: "15 GB + 200 Minutes",  oldPrice: 0, offerPrice: 465},
+            {name: "15 GB + 300 Minutes",  oldPrice: 0, offerPrice: 505},
+            {name: "15 GB + 400 Minutes",  oldPrice: 0, offerPrice: 530},
+
+            {name: "25 GB + 100 Minutes",  oldPrice: 0, offerPrice: 505},
+            {name: "25 GB + 200 Minutes ",  oldPrice: 0, offerPrice: 555},
+            {name: "25 GB + 300 Minutes",  oldPrice: 0, offerPrice: 590},
+            {name: "25 GB + 400 Minutes ",  oldPrice: 0, offerPrice: 615},
+
+            {name: "40 GB + 200 Minutes",  oldPrice: 0, offerPrice: 595},
+            {name: "40 GB + 300 Minutes",  oldPrice: 0, offerPrice: 625},
+            {name: "40 GB + 400 Minutes", oldPrice: 0, offerPrice: 660},
+
+            {name: "50 GB + 200 Minutes",  oldPrice: 0, offerPrice: 625},
+            {name: "50 GB + 400 Minutes",  oldPrice: 0, offerPrice: 685},
+
+            {name: "100 GB + 200 Minutes",  oldPrice: 0, offerPrice: 730},
+            {name: "100 GB + 400 Minutes",  oldPrice: 0, offerPrice: 780},
             
         ],
         "mbOnly": [
-            {name: "70 GB Data",  oldPrice: 749, offerPrice: 0},
-            {name: "100 GB Data",  oldPrice: 849, offerPrice: 0},
-            {name: "200 GB Data",  oldPrice: 0, offerPrice: 0},
+
             {name: "25 GB Data",  oldPrice: 0, offerPrice: 430},
             {name: "50 GB Data",  oldPrice: 0, offerPrice: 540},
-            {name: "75 GB Data",  oldPrice: 0, offerPrice: 640},
-            {name: "100 GB Data",  oldPrice: 0, offerPrice: 675},
+            {name: "75 GB Data",  oldPrice: 0, offerPrice: 650},
+            {name: "100 GB Data",  oldPrice: 0, offerPrice: 670},
         ],
         "minutesOnly": [
             {name: "400 Minutes",  oldPrice: 0, offerPrice: 300},
@@ -33,32 +47,33 @@ const packages = {
 
     "banglalink": {
         "mbMinutes": [
-            {name: "60 GB + 1000 Minutes", oldPrice: 998, offerPrice: 670},
-            {name: "45 GB + 400 Minutes",  oldPrice: 648, offerPrice: 480},
-            {name: "15 GB + 100 Minutes",  oldPrice: 298, offerPrice: 315}
+            {name: "60 GB + 1000 Minutes + 10 GB toffe", oldPrice: 998, offerPrice: 650},
+            {name: "45 GB + 400 Minutes + 10 GB toffe",  oldPrice: 648, offerPrice: 465},
+            {name: "15 GB + 100 Minutes + 10 GB toffe",  oldPrice: 298, offerPrice: 315}
             
         ],
         "mbOnly": [
-            {name: "120 GB Data", oldPrice: 899, offerPrice: 650},
-            {name: "80 GB Data",oldPrice: 799, offerPrice: 555},
-            
-            {name: "৫ GB Data মেয়াদ ৩ দিন ",  oldPrice: 89, offerPrice: 55} 
+            {name: "120 GB Data", oldPrice: 899, offerPrice: 615},
+            {name: "80 GB Data + 5 GB toffe+ 5 GB bip",oldPrice: 799, offerPrice: 555},
+            {name: "60 GB Data",oldPrice: 699, offerPrice: 490},
+            {name: "50 GB Data",oldPrice: 599, offerPrice: 465},
+            {name: "৫ GB Data মেয়াদ ৩ দিন ",  oldPrice: 89, offerPrice: 60} 
         ],
         "minutesOnly": [
-            {name: "600 Minutes", oldPrice: 397, offerPrice: 300},
-            {name: "755 Minutes",  oldPrice: 497, offerPrice: 375},
-            {name: "1000 Minutes",  oldPrice: 647, offerPrice: 0}
+            {name: "600 Minutes", oldPrice: 397, offerPrice: 295},
+            {name: "755 Minutes",  oldPrice: 497, offerPrice: 365},
+            {name: "0 Minutes",  oldPrice: 647, offerPrice: 0}
            
         ]
     },
     "robi": {
         "mbMinutes": [
             {name: "100 GB + 1000 Minutes",  oldPrice: 0, offerPrice: 835},
-            {name: "50 GB + 1500 Minutes",  oldPrice: 999, offerPrice: 775},
+            {name: "50 GB + 1500 Minutes",  oldPrice: 999, offerPrice: 770},
             {name: "50 GB + 1000 Minutes",  oldPrice: 0, offerPrice: 725},
             {name: "50 GB + 500 Minutes", oldPrice: 0, offerPrice: 685},
             {name: "40 GB + 800 Minutes", oldPrice: 799, offerPrice: 675},
-            {name: "40 GB + 750 Minutes",  oldPrice: 0, offerPrice: 635},
+            {name: "40 GB + 750 Minutes",  oldPrice: 0, offerPrice: 630},
 
             {name: "10 GB + 200 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 265},
             {name: "10 GB + 300 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 310},
@@ -77,9 +92,9 @@ const packages = {
             
         ],
         "mbOnly": [
-            {name: "150 GB Data",  oldPrice: 898, offerPrice: 745},
-            {name: "100 GB Data",  oldPrice: 748, offerPrice: 655},
-            {name: "55GB Data",  oldPrice: 0, offerPrice: 625},
+            {name: "150 GB Data (চট্টগ্রাম পাবে না )",  oldPrice: 898, offerPrice: 745},
+            {name: "100 GB Data (চট্টগ্রাম পাবে না )",  oldPrice: 748, offerPrice: 655},
+            {name: "55 GB Data (চট্টগ্রাম পাবে না )",  oldPrice: 0, offerPrice: 625},
             {name: "40 GB Data",  oldPrice: 0, offerPrice: 565},
 
             {name: "10 GB Data ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 175 },
@@ -104,7 +119,7 @@ const packages = {
     "airtel": {
         "mbMinutes": [
             {name: "75 GB + 1500 Minutes",  oldPrice: 999, offerPrice: 790},
-            {name: "100 GB + 1000 Minutes",  oldPrice: 0, offerPrice: 825},
+            {name: "100 GB + 1000 Minutes",  oldPrice: 0, offerPrice: 835},
             {name: "80 GB + 300 Minutes", oldPrice: 0, offerPrice: 685},
             {name: "80 GB + 500 Minutes",  oldPrice: 0, offerPrice: 725},
             {name: "60 GB + 900 Minutes",  oldPrice: 899, offerPrice: 730},
@@ -112,7 +127,7 @@ const packages = {
             {name: "50 GB + 800 Minutes",  oldPrice: 799, offerPrice: 700},
             {name: "50 GB + 700 Minutes",  oldPrice: 699, offerPrice: 670},
             {name: "40 GB + 500 Minutes", oldPrice: 0, offerPrice: 575},
-            {name: "30 GB + 400 Minutes",  oldPrice: 0, offerPrice: 515},
+            {name: "30 GB + 400 Minutes",  oldPrice: 498, offerPrice: 475},
 
             {name: "10 GB + 200 Minutes ফ্যামিলি প্যাকেজ",  oldPrice: 0, offerPrice: 265},
             {name: "10 GB + 300 Minutes ফ্যামিলি প্যাকেজ", oldPrice: 0, offerPrice: 310},
@@ -132,8 +147,7 @@ const packages = {
             
         ],
         "mbOnly": [
-            {name: "150 GB Data",  oldPrice: 898, offerPrice: 765},
-            {name: "100 GB Data",  oldPrice: 0, offerPrice: 675},
+            {name: "150 GB Data",  oldPrice: 898, offerPrice: 760},
             {name: "90 GB Data",  oldPrice: 748, offerPrice: 655},
             {name: "70 GB Data",  oldPrice: 0, offerPrice: 595},
             {name: "55 GB Data", oldPrice: 548, offerPrice: 545},
@@ -179,8 +193,6 @@ function generatePackageHTML(packages, sectionId, operator) {
         section.innerHTML += packageCard;
     });
 }
-
-
 
 // Function to load packages into the HTML based on the selected operator
 function loadPackages(operator) {
